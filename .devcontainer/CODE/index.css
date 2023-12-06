@@ -1,7 +1,19 @@
-h1 {font-family: 'Grandiflora One', cursive;
-    font-weight: bold;
+
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.nav-item {
-    color: black;
+p {
+    font-family: 'font-family: 'Grandiflora One', cursive;';
 }
+
+.btn {
+    background-color: #000;
+}
+
+.nav-item {font-family: 'Grandiflora One', cursive;
+    font-weight: 1000;
+}
+
+#contact-form {align-content: center;}
