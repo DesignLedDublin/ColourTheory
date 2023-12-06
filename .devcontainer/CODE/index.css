@@ -1,3 +1,7 @@
 h1 {font-family: 'Grandiflora One', cursive;
     font-weight: bold;
 }
+
+.nav-item {
+    color: black;
+}
