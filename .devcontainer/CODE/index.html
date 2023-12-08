@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Font Awesome -->
-    <link
-    <script src="https://use.fontawesome.com/4c85c49757.js"></script>
-    />
+    <script src="https://kit.fontawesome.com/e9ea849082.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap CSS -->
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -30,14 +28,16 @@
   </head>
 
   <body>
+    
+    <?php include 'navbar.php' ?>
 
-<!-- Nav bar section-->
+<!-- Nav bar section -->
 
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="d-flex flex-grow-1">
           <span class="w-100 d-lg-none d-block"
-            ><!-- hidden spacer to center brand on mobile --></span
+            <!-- >hidden spacer to center brand on mobile</span -->
           >
           <a class="navbar-brand d-none d-lg-inline-block" href="#">
             <img src="/IMAGES/Logo.png" alt="" width="" height="125px" alt="" />
@@ -59,15 +59,15 @@
               <a href="#" class="nav-link m-2 menu-item">What is Colour Theory?</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link dropdown-toggle m-2 menu-item">Palettes</a>
-              <div class="dropdown-toggle">
+              <a href="#" class="nav-link dropdown-toggle m-2 menu-item" data-toggle="dropdown">Palettes</a>
+              <div class="dropdown-menu" role="menu">
                 <a class="dropdown-item" href="#">Neutral</a>
                 <a class="dropdown-item" href="#">Colour Pop</a>
                 <a class="dropdown-item" href="#">Mid Century</a>
               </div>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link m-2 menu-item">Contact</a>
+              <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
             </li>
           </ul>
         </div>
@@ -87,6 +87,7 @@
     </div>
 
     <!-- Footer Section -->
+
     <div class="container-fluid" >
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <div class="col-md-4 d-flex align-items-center">
@@ -96,19 +97,19 @@
             <span class="mb-3 mb-md-0 text-body-secondary">© 2023 DesignLed Ltd</span>
           </div>
 
-          <div>
-            <i class="social-icons fa-brands fa-twitter" aria-hidden="true"></i>
-            <i class="social-icons fa-brands fa-facebook-f" aria-hidden="true"></i>
-            <i class="social-icons fa-brands fa-instagram" aria-hidden="true"></i>
-            <i class="social-icons fa-solid fa-envelope" aria-hidden="true"></i>
+          <div class="nav col-md-2 justify-content-between">
+            <i class="social-icons fa-brands fa-pinterest fa-2x" aria-hidden="true"></i>
+            <i class="social-icons fa-brands fa-facebook-f fa-2x" aria-hidden="true"></i>
+            <i class="social-icons fa-brands fa-instagram fa-2x" aria-hidden="true"></i>
+            <i class="social-icons fa-solid fa-envelope fa-2x" aria-hidden="true"></i>
           </div>
       
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <!-- <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
             <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fab fa-twitter"></i></a>
             </li>
             <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
             <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-          </ul>
+          </ul> -->
         </footer>
       </div>
 

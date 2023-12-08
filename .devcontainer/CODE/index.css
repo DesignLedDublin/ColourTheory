@@ -12,6 +12,16 @@ p {
     background-color: #000;
 }
 
+/* Social Icons */
+
+.social-icons {
+size-adjust: 10em;
+}
+
+.fa-twitter {
+    color: pink;
+}
+
 .nav-item {font-family: 'Grandiflora One', cursive;
     font-weight: 1000;
 }
