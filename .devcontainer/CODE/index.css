@@ -22,8 +22,16 @@ size-adjust: 10em;
     color: pink;
 }
 
+/* Nav Bar  */
 .nav-item {font-family: 'Grandiflora One', cursive;
     font-weight: 1000;
+}
+
+
+/* Palette Section */
+
+.palette-title {
+    text-align: center;
 }
 
 #contact-form {align-content: center;}

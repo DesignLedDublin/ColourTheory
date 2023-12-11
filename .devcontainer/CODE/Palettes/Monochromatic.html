@@ -5,37 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Font Awesome -->
-
-    <script
-      src="https://kit.fontawesome.com/e9ea849082.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/e9ea849082.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap CSS -->
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- Google Fonts -->
+<!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
+    
+    <link rel="stylesheet" href="index.css"/>
 
-    <title>Monochromatic</title>
+    <title>Colour Theory</title>
   </head>
-  <body>
 
-    <!-- Nav bar section-->
+  <body>
+    
+  <!-- Nav bar section-->
 
 <div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -60,30 +55,36 @@
     <div class="collapse navbar-collapse flex-grow-1 text-right"id="myNavbar">
       <ul class="navbar-nav ml-auto flex-nowrap">
         <li class="nav-item">
-          <a href="#" class="nav-link m-2 menu-item">What is Colour Theory?</a>
+          <a href="colour-theory.html" class="nav-link m-2 menu-item">What is Colour Theory?</a>
+        </li>
+
+        <!-- Dropdown menu section -->
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle m-2 menu-item" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+            Palettes
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="Palettes/Neutral.html">Neutral</a></li>
+            <li><a class="dropdown-item" href="Palettes/Monochromatic.html">Monochromatic</a></li>
+            <li><a class="dropdown-item" href="Palettes/Maximalist.html">Maximalist</a></li>
+          </ul>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link dropdown-toggle m-2 menu-item">Palettes</a>
-          <div class="dropdown-toggle">
-            <a class="dropdown-item" href="#">Neutral</a>
-            <a class="dropdown-item" href="#">Colour Pop</a>
-            <a class="dropdown-item" href="#">Mid Century</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link m-2 menu-item">Contact</a>
+          <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 </div>
 
+
     <div class="container-fluid">
-      <h2>
+
+      <h2 class="palette-title">
         Monochromatic Colour Palette
       </h2>
       
-      <p>
+      <p class="palette-title">
         A monochromatic scheme creates a calming feel whilst also delivering
         impact. It is a great option for a bedroom where you want to create a
         feeling of relaxation. The mixture of strong but similarly toned colours
