@@ -1,11 +1,17 @@
 
 
 h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
 p {
-    font-family: 'font-family: 'Grandiflora One', cursive;';
+    font-family: 'Grandiflora One', cursive;
+    font-size: large;
 }
 
 .btn {
@@ -23,8 +29,10 @@ size-adjust: 10em;
 }
 
 /* Nav Bar  */
-.nav-item {font-family: 'Grandiflora One', cursive;
+.nav-item {
+    font-family: 'Grandiflora One', cursive;
     font-weight: 1000;
+    font-size: large;
 }
 
 
@@ -32,6 +40,11 @@ size-adjust: 10em;
 
 .palette-title {
     text-align: center;
+}
+
+.palette-list {
+    font-family: 'Grandiflora One', cursive;
+    font-size: large;
 }
 
 #contact-form {align-content: center;}
