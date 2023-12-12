@@ -22,7 +22,9 @@ p {
 
 .social-icons {
 size-adjust: 10em;
+color: black!important;
 }
+
 
 .fa-twitter {
     color: pink;
