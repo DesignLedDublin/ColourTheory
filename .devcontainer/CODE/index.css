@@ -41,12 +41,15 @@ color: black;
     font-size: large;
 }
 
+
+/* Colour Theory Page */
+
 .colour-wheel {
-    .center {
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
+    style="background-image: url('/IMAGES/COLOUR WHEEL.webp');
+}
+
+.colour-description {
+    style="background-image: url('/IMAGES/yellow_bg.png');"
 }
 
 /* Palette Section */
