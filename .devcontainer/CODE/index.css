@@ -29,11 +29,6 @@ size-adjust: 10em;
 color: black;
 }
 
-
-.fa-twitter {
-    color: pink;
-}
-
 /* Nav Bar  */
 .nav-item {
     font-family: 'Grandiflora One', cursive;
@@ -43,13 +38,6 @@ color: black;
 
 /* Colour Theory Page */
 
-.colour-wheel {
-    style="background-image: url('/IMAGES/COLOUR WHEEL.webp');
-}
-
-.colour-description {
-    style="background-image: url('/IMAGES/yellow_bg.png');"
-}
 
 /* Palette Section */
 
