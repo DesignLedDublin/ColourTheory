@@ -14,7 +14,7 @@ p {
     font-size: large;
 }
 
-.nav-link:hover {
+a:hover {
     color: aquamarine;
 }
 
@@ -28,7 +28,8 @@ p {
 }
 
 .coming-soon {
-    background-color: #9dc2a4;
+    background-color: aquamarine;
+    padding-top: 5em;
 }
 
 /* Social Icons */
@@ -66,8 +67,5 @@ color: black;
 
 /* Coming Soon Section */
 
-.coming-soon {
-
-}
 
 #contact-form {align-content: center;}
