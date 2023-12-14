@@ -1,6 +1,6 @@
 
 
-h2 {
+h1, h2 {
     font-family: 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
 }
@@ -16,6 +16,11 @@ p {
 
 .nav-link:hover {
     color: aquamarine;
+}
+
+.container-fluid {
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .btn {
@@ -53,6 +58,12 @@ color: black;
 .img-responsive {
     max-width: 100%;
     height: auto;
+}
+
+/* Coming Soon Section */
+
+.coming-soon {
+
 }
 
 #contact-form {align-content: center;}
