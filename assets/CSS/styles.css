@@ -28,7 +28,8 @@ a:hover {
 }
 
 .coming-soon {
-    background-color: aquamarine;
+    background-color: #41161d;
+    color: white;
     padding-top: 5em;
 }
 
@@ -72,7 +73,6 @@ color: black;
     height: auto;
 }
 
-/* Coming Soon Section */
 
 
 #contact-form {align-content: center;}
