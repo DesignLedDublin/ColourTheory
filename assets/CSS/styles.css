@@ -33,6 +33,11 @@ a:hover {
     padding-top: 5em;
 }
 
+.main-title {
+    padding-bottom: 1em;
+}
+
+
 /* Social Icons */
 
 .social-icons {
@@ -47,8 +52,9 @@ color: black;
     font-size: large;
 }
 
-.nav-bar {
+.navbar-fixed-top {
     background-color: white;
+    padding-bottom: 0;
 }
 
 /* Colour Theory Page */
