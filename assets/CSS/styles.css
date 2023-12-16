@@ -3,19 +3,21 @@
 h1, h2 {
     font-family: 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
+    size: 3em!important;
 }
 
 h3 {
     font-family: 'Arial Narrow Bold', sans-serif;
+    size: 3em!important;
 }
 
 p {
     font-family: 'Grandiflora One', cursive;
-    font-size: large;
+    font-size: 1.5em;
 }
 
 a:hover {
-    color: aquamarine;
+    color: #370b1f;
 }
 
 .container-fluid {
@@ -28,7 +30,7 @@ a:hover {
 }
 
 .coming-soon {
-    background-color: #41161d;
+    background-color: #370b1f;
     color: white;
     padding-top: 5em;
 }
@@ -82,3 +84,7 @@ color: black;
 
 
 #contact-form {align-content: center;}
+
+.fa-house {
+    size: 3em!important;
+}
