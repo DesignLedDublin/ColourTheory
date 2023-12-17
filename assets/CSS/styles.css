@@ -70,6 +70,16 @@ color: black;
     padding: 2rem;
 }
 
+.colour-psych-text {
+   padding-left: 1em; 
+   padding-right: 1em;
+}
+
+.colour-theory-line {
+    padding-top: 2em;
+    padding-left: 1em; 
+    padding-right: 1em;
+}
 
 /* Palette Section */
 
