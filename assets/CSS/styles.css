@@ -17,8 +17,8 @@ p {
 }
 
 a:hover {
-    color: #370b1f;
-}
+    color: aquamarine;
+    }
 
 .container-fluid {
     padding-top: 3em;
@@ -66,6 +66,7 @@ color: black;
 }
 
 /* Colour Theory Page */
+
 .colours {
     padding: 2rem;
 }
