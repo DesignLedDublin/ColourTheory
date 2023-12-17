@@ -97,6 +97,9 @@ color: black;
     height: auto;
 }
 
+.hero-images {
+    padding-left: 1em;
+}
 
 
 #contact-form {align-content: center;}
