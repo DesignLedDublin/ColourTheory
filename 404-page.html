@@ -47,6 +47,7 @@
           type="button"
           data-toggle="collapse"
           data-target="#myNavbar"
+          aria-label="Collapsible menu"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -81,6 +82,8 @@
   </nav>
 </div>
 
+
+
 <!-- 404 section  -->
 
 <div class="d-flex align-items-center justify-content-center">
@@ -94,10 +97,9 @@
   </div>
 </div>
 
-    
-   <!-- Footer Section -->
+  <!-- Footer Section -->
 
-   <div class="container-fluid">
+  <div class="container-fluid">
     <img src="assets/site-images/Line.webp" alt="" height="2px" width="100%">
     <footer
       class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
@@ -108,8 +110,9 @@
           class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
         >
           <svg class="bi" width="30" height="24">
-            <use xlink:href="#bootstrap"></use>
+            <use xlink:href="#bootstrap" aria-label="DesignLed copyright"></use>
           </svg>
+
         </a>
         <span class="mb-3 mb-md-0 text-body-secondary"
           >© 2023 DesignLed Ltd</span
@@ -121,6 +124,7 @@
           href="https://www.pinterest.ie/"
           target="_blank"
           rel="noopener noreferral"
+          aria-label="Pinterest"
           ><i
             class="social-icons fa-brands fa-pinterest fa-2x"
             aria-hidden="true"
@@ -130,6 +134,7 @@
           href="https://www.facebook.com/"
           target="_blank"
           rel="noopener noreferral"
+          aria-label="Facebook"
           ><i
             class="social-icons fa-brands fa-facebook-f fa-2x"
             aria-hidden="true"
@@ -139,12 +144,14 @@
           href="https://www.instagram.com/"
           target="_blank"
           rel="noopener noreferral"
+          aria-label="Instagram"
           ><i
             class="social-icons fa-brands fa-instagram fa-2x"
             aria-hidden="true"
           ></i
         ></a>
-        <a href="mailto: lisa@designled.io"
+        <a href="mailto: hello@designled.io"
+        aria-label="email"
           ><i
             class="social-icons fa-solid fa-envelope fa-2x"
             aria-hidden="true"
