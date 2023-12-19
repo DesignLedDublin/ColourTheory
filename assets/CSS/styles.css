@@ -42,6 +42,10 @@ p {
     size: 1.5em;
 }
 
+.fa-house {
+    size: 3em!important;
+}
+
 /* Social Icons */
 
 .social-icons {
@@ -121,8 +125,13 @@ color: black;
 }
 
 
-#contact-form {align-content: center;}
+/* Contact page */
 
-.fa-house {
-    size: 3em!important;
+#contact-form {
+padding-top: 0!important;
 }
+
+.form-group {
+    margin-top: 1em;
+}
+
