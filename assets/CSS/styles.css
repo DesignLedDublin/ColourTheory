@@ -68,18 +68,11 @@ color: black;
     /* Add a smooth transition effect */
 }
 
+
 /* Hover state styling */
 .nav-link:hover {
     color: #dc9806 !important;
-    /* Set the color you want on hover */
 }
-
-.nav-link:active {
-    color: #580b20 !important;
-    /* Set the color you want on active */
-}
-
-
 
 /* Colour Theory Page */
 
@@ -120,8 +113,11 @@ color: black;
 
 .how-to {
     background-color: #580b20;
-    padding-top: 1em;
-    border-top: 0;
+    margin: 1em;
+    padding-right: 95%;
+    padding: 1em;
+    color: white;
+    max-width: 98%;
 }
 
 
