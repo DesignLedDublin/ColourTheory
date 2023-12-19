@@ -53,6 +53,10 @@ size-adjust: 10em;
 color: black;
 }
 
+.social-group {
+    flex-wrap: nowrap!important;
+}
+
 /* Nav Bar  */
 .nav-item {
     font-family: 'Grandiflora One', cursive;
