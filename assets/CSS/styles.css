@@ -13,12 +13,11 @@ h3 {
 
 p {
     font-family: 'Grandiflora One', cursive;
-    /* font-size: 1.5em; */
 }
 
 .container-fluid {
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .btn {
@@ -26,8 +25,14 @@ p {
 }
 
 
+/* Home Page */
+
 .main-title {
     padding-bottom: 1em;
+}
+.sub-header {
+    font-family: 'Arial Narrow Bold', sans-serif!important;
+   font-size: 2em;
 }
 
 /* Coming Soon Section */
