@@ -122,6 +122,23 @@ Website behaved as expected with the exception of ipad screen when one of the so
 
 Website was also opened on the following devices and no responsive issues were seen:
 
-- Ipad- put in model
-- Iphone - put in model
-- Samsung Galaxy - put in model
+* Ipad- put in model
+* Iphone - put in model
+* Samsung Galaxy - put in model
+
+### Validator Testing 
+
+- HTML
+ [W3C validator](https://validator.w3.org)
+ Initially the following issues were found:
+ * There were multiple trailing slash on void elements found.
+ * For all the img elements, I had to put them into a style section as I wanted to specify the width in em.
+ * The automatic redirect for the contact-form-submit.html was not in the head section of the website so this had to be moved. 
+
+ Once I had corrected these issues, there were no further errors found when passing it through the W3C validator.
+
+ ### Lighthouse Testing
+Initially I had issues with the performance element of this result, it was at 86.  
+To bring this score up, I made a few changes:
+* I made the size of the logo in the navbar smaller. 
+* I made the size of the carousel images on the home page smaller. 
