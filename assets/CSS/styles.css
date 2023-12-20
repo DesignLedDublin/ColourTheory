@@ -3,12 +3,10 @@
 h1, h2 {
     font-family: 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
-    size: 3em!important;
 }
 
 h3 {
-    font-family: 'Arial Narrow Bold', sans-serif;
-    size: 3em!important;
+    font-family: 'Arial Narrow Bold', sans-serif; 
 }
 
 p {
@@ -46,27 +44,14 @@ p {
     text-align: center;
 }
 
-.coming-soon-text {
-    size: 1.5em;
-}
-
-.fa-house {
-    size: 3em!important;
-}
-
 /* Social Icons */
 
 .social-icons {
-size-adjust: 10em;
 color: black;
 }
 
 .social-icons:hover {
     color: #dc9806!important;
-}
-
-.social-group {
-    flex-wrap: nowrap!important;
 }
 
 /* Nav Bar  */
@@ -138,7 +123,6 @@ color: black;
     color: white;
     max-width: 98%;
 }
-
 
 /* Contact page */
 
