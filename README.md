@@ -132,7 +132,7 @@ Website was also opened on the following devices and no responsive issues were s
  [W3C validator](https://validator.w3.org)
  Initially the following issues were found:
  * There were multiple trailing slash on void elements found.
- * CHECK For all the img elements, I had to put them into a style section as I wanted to specify the width in em.
+ * For all the img elements, I had to take out the px as this wasn't allowed in the width and height elements. 
  * The automatic redirect for the contact-form-submit.html was not in the head section of the website so this had to be moved. 
 
  Once I had corrected these issues, there were no further errors found when passing it through the W3C validator.
