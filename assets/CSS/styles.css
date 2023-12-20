@@ -23,6 +23,7 @@ p {
 .btn {
     background-color: #580b20;
     border-color: white;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
 
@@ -57,6 +58,10 @@ p {
 .social-icons {
 size-adjust: 10em;
 color: black;
+}
+
+.social-icons:hover {
+    color: #dc9806!important;
 }
 
 .social-group {
