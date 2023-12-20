@@ -132,13 +132,42 @@ Website was also opened on the following devices and no responsive issues were s
  [W3C validator](https://validator.w3.org)
  Initially the following issues were found:
  * There were multiple trailing slash on void elements found.
- * For all the img elements, I had to put them into a style section as I wanted to specify the width in em.
+ * CHECK For all the img elements, I had to put them into a style section as I wanted to specify the width in em.
  * The automatic redirect for the contact-form-submit.html was not in the head section of the website so this had to be moved. 
 
  Once I had corrected these issues, there were no further errors found when passing it through the W3C validator.
+
+ - CSS
+ [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
+Initially, there the issues below with my CSS code:
+INSERT IMAGE
+
+Once I removed these CSS elements, no errors were found:
+INSERT IMAGE
+
 
  ### Lighthouse Testing
 Initially I had issues with the performance element of this result, it was at 86.  
 To bring this score up, I made a few changes:
 * I made the size of the logo in the navbar smaller. 
 * I made the size of the carousel images on the home page smaller. 
+
+## Bugs 
+* Creating the dropdown menu in navbar menu 
+  * When I used code from Boostrap, it gave me a button instead of a dropdown menu item that looked the same as the rest of the menu.  [This article](https://www.w3schools.com/bootstrap4/bootstrap_dropdowns.asp#:~:text=Basic%20Dropdown&text=To%20open%20the%20dropdown%20menu,actually%20build%20the%20dropdown%20menu.) enabled me to get this element to look right, but the menu wouldn't drop down.
+  * I tried changing to v5 of Bootstrap as I read that you need this to make the dropdown toggle but this made everything go out of aligment.  I eventually found [this article](https://stackoverflow.com/questions/22955916/bootstrap-collapse-not-collapsin) which made me realise that if I took the -bs- out of the data-bs-toggle and went back to v4 of Bootstrap the drop down menu works and the alignment works. 
+
+## Unfixed Bugs 
+* I could not get the social icons to sit all in one line on ipad size.  I will fix this in a future release. 
+  
+## Credits 
+
+* [Dropdown menu in navbar](https://www.w3schools.com/bootstrap4/bootstrap_dropdowns.asp#:~:text=Basic%20Dropdown&text=To%20open%20the%20dropdown%20menu,actually%20build%20the%20dropdown%20menu.)
+    * I used code from this page to help me create the dropdown menu without a button where the dropdown is, which is what I was getting from the Navbar Bootstrap code. 
+* [Contact Form base code](https://mdbootstrap.com/docs/b4/jquery/forms/contact/#html)
+    * This is where I got the base code for my contact form.  I then adapted it to my needs. 
+
+
+### Content and Media
+
+All content and media are owned by Lisa Marconi through her company Design Led Ltd.  The logo was created by Lisa Marconi for this project. 
