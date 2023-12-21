@@ -1,147 +1,145 @@
-
-
-h1, h2 {
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-weight: bold;
+h1,
+h2 {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
 }
 
 h3 {
-    font-family: 'Arial Narrow Bold', sans-serif; 
+  font-family: "Arial Narrow Bold", sans-serif;
 }
 
 p {
-    font-family: 'Grandiflora One', cursive;
+  font-family: "Grandiflora One", cursive;
+  font-weight: 1000;
+  font-size: large;
 }
 
 .container-fluid {
-    padding-top: 2em;
-    padding-bottom: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .btn {
-    background-color: #580b20;
-    border-color: white;
-    font-family: 'Arial Narrow Bold', sans-serif;
+  background-color: #580b20;
+  border-color: white;
+  font-family: "Arial Narrow Bold", sans-serif;
 }
-
 
 /* Home Page */
 
 .main-title {
-    padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 .sub-header {
-    font-family: 'Arial Narrow Bold', sans-serif!important;
-   font-size: 2em;
+  font-family: "Arial Narrow Bold", sans-serif !important;
+  font-size: 2em;
 }
-
-
 
 /* Coming Soon Section */
 
 .coming-soon {
-    background-color: #580b20;
-    color: white;
-    padding-top: 5em;
-    text-align: center;
+  background-color: #580b20;
+  color: white;
+  padding-top: 5em;
+  text-align: center;
 }
 
 /* Social Icons */
 
 .social-icons {
-color: black;
+  color: black;
 }
 
 .social-icons:hover {
-    color: #dc9806!important;
+  color: #dc9806 !important;
 }
 
 /* Nav Bar  */
 .nav-item {
-    font-family: 'Grandiflora One', cursive;
-    font-weight: 1000;
-    font-size: large;
+  font-family: "Grandiflora One", cursive;
+  font-weight: 1000;
+  font-size: large;
 }
 
 .navbar-fixed-top {
-    background-color: white;
-    padding-bottom: 0;
+  background-color: white;
+  padding-bottom: 0;
 }
 
 .nav-link {
-    color: #000 !important;
-    /* Set the default color */
-    transition: color 0.3s;
-    /* Add a smooth transition effect */
+  color: #000 !important;
+  /* Set the default color */
+  transition: color 0.3s;
+  /* Add a smooth transition effect */
 }
 
 /* Hover state styling */
 .nav-link:hover {
-    color: #dc9806 !important;
+  color: #dc9806 !important;
 }
 
 /* Colour Theory Page */
 
 .colours {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .colour-psych-text {
-   padding-left: 1em; 
-   padding-right: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .colour-theory-line {
-    padding-top: 2em;
-    padding-left: 1em; 
-    padding-right: 1em;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /* Palette Section */
 
 .palette-title {
-    text-align: center;
+  text-align: center;
 }
 
 .palette-list {
-    font-family: 'Grandiflora One', cursive;
-    font-size: large;
+  font-family: "Grandiflora One", cursive;
+  font-size: large;
 }
 
 .img-responsive {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .hero-images {
-    padding-left: 1em;
+  padding-left: 1em;
 }
 
 .how-to {
-    background-color: #580b20;
-    margin: 1em;
-    padding-right: 95%;
-    padding: 1em;
-    color: white;
-    max-width: 98%;
+  background-color: #580b20;
+  margin: 1em;
+  padding-right: 95%;
+  padding: 1em;
+  color: white;
+  max-width: 98%;
 }
 
 /* Contact page */
 
 #contact-form {
-padding-top: 0!important;
+  padding-top: 0 !important;
 }
 
 .form-group {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .thank-you {
-    text-align: center!important;
+  text-align: center !important;
 }
 
 /* 404 page */
 
 .fourzerofour {
-    color: #dc9806;
+  color: #dc9806;
 }

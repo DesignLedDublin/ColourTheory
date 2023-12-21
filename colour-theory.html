@@ -1,96 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/e9ea849082.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/e9ea849082.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap CSS -->
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap"
       rel="stylesheet"
-    >
-    <link rel="stylesheet" href="assets/CSS/styles.css">
+    />
+    <link rel="stylesheet" href="assets/CSS/styles.css" />
 
     <title>Colour Theory</title>
-    <link rel="icon" type="image/x-icon" href="assets/site-images/favicon.ico">
-
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/site-images/favicon.ico"
+    />
   </head>
 
   <body>
     <!-- Navbar base code from Bootstrap -->
 
-  <!-- Nav bar section-->
-<div class=" container-fluid navbar-fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="d-flex flex-grow-1">
-      <span class="w-100 d-lg-none d-block"
-        ><!-- hidden spacer to center brand on mobile --></span
-      >
-      <a class="navbar-brand d-none d-inline-block" href="#">
-        <img src="assets/site-images/Logo.webp" alt="Logo for Colour Theory" style="width:125px;">
-      </a>
-      <div class="w-100 text-right">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#myNavbar"
-          aria-label="Collapsible menu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </div>
-    <div class="menu collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-      <ul class="navbar-nav ml-auto flex-nowrap">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link m-2 menu-item">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="colour-theory.html" class="nav-link m-2 menu-item">What is Colour Theory?</a>
-        </li>
-
-        <!-- Dropdown menu section -->
-        <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle m-2 menu-item" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
-            Palettes
+    <!-- Nav bar section-->
+    <div class="container-fluid navbar-fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="d-flex flex-grow-1">
+          <span class="w-100 d-lg-none d-block"
+            ><!-- hidden spacer to center brand on mobile --></span
+          >
+          <a class="navbar-brand d-none d-inline-block" href="#">
+            <img
+              src="assets/site-images/Logo.webp"
+              alt="Logo for Colour Theory"
+              style="width: 125px"
+            />
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="Neutral.html">Neutral</a></li>
-            <li><a class="dropdown-item" href="Monochromatic.html">Monochromatic</a></li>
-            <li><a class="dropdown-item" href="Maximalist.html">Maximalist</a></li>
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</div>
+          <div class="w-100 text-right">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+              aria-label="Collapsible menu"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="menu collapse navbar-collapse flex-grow-1 text-right"
+          id="myNavbar"
+        >
+          <ul class="navbar-nav ml-auto flex-nowrap">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link m-2 menu-item">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="colour-theory.html" class="nav-link m-2 menu-item"
+                >What is Colour Theory?</a
+              >
+            </li>
 
+            <!-- Dropdown menu section -->
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle m-2 menu-item"
+                id="navbarDropdown"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Palettes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="Neutral.html">Neutral</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Monochromatic.html"
+                    >Monochromatic</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Maximalist.html">Maximalist</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
     <!-- TITLE SECTION  -->
 
     <div class="container-fluid text-center">
       <h2 class="palette-title">COLOUR THEORY</h2>
-      </div>
+    </div>
 
-      <div>
+    <div>
       <p class="colour-psych-text">
         Colour psychology in interior design is well worth paying attention to.
         It can set the mood for how your guests feel when they come to visit you
@@ -98,7 +129,7 @@
         different colours to enable you to experience different feelings as you
         walk into a room. Once you start to understand the power of colour in
         your home, you can start to use it intentionally to allow you to
-        influence how you feel in different parts of your home. <br><br>
+        influence how you feel in different parts of your home. <br /><br />
         Have you ever walked into a sunny cafe with bright yellow walls and
         instantly felt livelier? Or entered the calm, of a spa decorated in
         soft, natural tones and felt an unmistakeable feeling of zen? The colour
@@ -112,11 +143,15 @@
     </div>
 
     <div class="colour-theory-line">
-      <img src="assets/site-images/Line.webp" alt="rainbow line" style="height: 2px; width: 100%;">
+      <img
+        src="assets/site-images/Line.webp"
+        alt="rainbow line"
+        style="height: 2px; width: 100%"
+      />
     </div>
 
     <!-- Colour sections -->
-<!-- Bootstrap base code  -->
+    <!-- Bootstrap base code  -->
     <div class="container-fluid">
       <div class="colours row row-no-margin">
         <div class="col-xs-12 col-sm-6">
@@ -124,7 +159,7 @@
             class="thumbnail img-responsive"
             src="assets/site-images/COLOURS/Yellow.webp"
             alt="yellow gradient colours"
-          >
+          />
         </div>
         <div class="col-xs-12 col-sm-6">
           <p>
@@ -145,7 +180,7 @@
             class="thumbnail img-responsive"
             src="assets/site-images/COLOURS/Orange.webp"
             alt="orange gradient colours"
-          >
+          />
         </div>
         <div class="col-xs-12 col-sm-6">
           <p>
@@ -161,7 +196,6 @@
             cushion can bring this beautiful, positive colour into your home.
           </p>
         </div>
-      
       </div>
 
       <div class="colours row row-no-margin">
@@ -170,7 +204,7 @@
             class="thumbnail img-responsive"
             src="assets/site-images/COLOURS/Red.webp"
             alt="red gradient colours"
-          >
+          />
         </div>
         <div class="col-xs-12 col-sm-6">
           <p>
@@ -191,7 +225,7 @@
             class="thumbnail img-responsive"
             src="assets/site-images/COLOURS/Pink.webp"
             alt="pink gradient colours"
-          >
+          />
         </div>
 
         <div class="col-xs-12 col-sm-6">
@@ -215,7 +249,7 @@
             class="thumbnail img-responsive"
             src="assets/site-images/COLOURS/Purple.webp"
             alt="purple gradient colours"
-          >
+          />
         </div>
         <div class="col-xs-12 col-sm-6">
           <p>
@@ -236,7 +270,7 @@
             class="thumbnail img-responsive"
             src="assets/site-images/COLOURS/Blue.webp"
             alt="blue gradient colours"
-          >
+          />
         </div>
         <div class="col-xs-12 col-sm-6">
           <p>
@@ -257,7 +291,7 @@
             class="thumbnail img-responsive"
             src="assets/site-images/COLOURS/Green.webp"
             alt="green gradient colours"
-          >
+          />
         </div>
         <div class="col-xs-12 col-sm-6">
           <p>
@@ -273,74 +307,74 @@
       </div>
     </div>
 
-      <!-- Footer Section -->
+    <!-- Footer Section -->
 
-  <div class="container-fluid">
-    <img
-      src="assets/site-images/Line.webp"
-      alt="rainbow line"
-      style="width: 100%; height: 2px"
-    >
-     <!-- Footer base code from Bootstrap -->
-    <footer
-      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
-    >
-      <div class="col-md-4 d-flex align-items-center">
-        <a
-          href="/"
-          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-        >
-          <svg class="bi" width="30" height="24">
-            <use
-              xlink:href="#bootstrap"
-              aria-label="DesignLed copyright"
-            ></use>
-          </svg>
-        </a>
-        <span class="mb-3 mb-md-0 text-body-secondary"
-          >© 2023 DesignLed Ltd</span
-        >
-      </div>
+    <div class="container-fluid">
+      <img
+        src="assets/site-images/Line.webp"
+        alt="rainbow line"
+        style="width: 100%; height: 2px"
+      />
+      <!-- Footer base code from Bootstrap -->
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use
+                xlink:href="#bootstrap"
+                aria-label="DesignLed copyright"
+              ></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >© 2023 DesignLed Ltd</span
+          >
+        </div>
 
-      <div class="nav col-md-2 justify-content-between">
-        <a
-          href="https://www.pinterest.ie/designledstudio"
-          target="_blank"
-          rel="noopener noreferral"
-          aria-label="Pinterest"
-          ><i
-            class="social-icons fa-brands fa-pinterest fa-2x"
-            aria-hidden="true"
-          ></i
-        ></a>
-        <a
-          href="https://www.facebook.com/designled"
-          target="_blank"
-          rel="noopener noreferral"
-          aria-label="Facebook"
-          ><i
-            class="social-icons fa-brands fa-facebook-f fa-2x"
-            aria-hidden="true"
-          ></i
-        ></a>
-        <a
-          href="https://www.instagram.com/designledstudio/"
-          target="_blank"
-          rel="noopener noreferral"
-          aria-label="Instagram"
-          ><i
-            class="social-icons fa-brands fa-instagram fa-2x"
-            aria-hidden="true"
-          ></i
-        ></a>
-        <a href="mailto:hello@designled.io" aria-label="email"
-          ><i
-            class="social-icons fa-solid fa-envelope fa-2x"
-            aria-hidden="true"
-          ></i
-        ></a>
-      </div>
-    </footer>
-  </div>
-</body>
+        <div class="nav col-md-2 justify-content-between">
+          <a
+            href="https://www.pinterest.ie/designledstudio"
+            target="_blank"
+            rel="noopener noreferral"
+            aria-label="Pinterest"
+            ><i
+              class="social-icons fa-brands fa-pinterest fa-2x"
+              aria-hidden="true"
+            ></i
+          ></a>
+          <a
+            href="https://www.facebook.com/designled"
+            target="_blank"
+            rel="noopener noreferral"
+            aria-label="Facebook"
+            ><i
+              class="social-icons fa-brands fa-facebook-f fa-2x"
+              aria-hidden="true"
+            ></i
+          ></a>
+          <a
+            href="https://www.instagram.com/designledstudio/"
+            target="_blank"
+            rel="noopener noreferral"
+            aria-label="Instagram"
+            ><i
+              class="social-icons fa-brands fa-instagram fa-2x"
+              aria-hidden="true"
+            ></i
+          ></a>
+          <a href="mailto:hello@designled.io" aria-label="email"
+            ><i
+              class="social-icons fa-solid fa-envelope fa-2x"
+              aria-hidden="true"
+            ></i
+          ></a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
