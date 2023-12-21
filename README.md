@@ -128,7 +128,8 @@ Website behaved as expected with the exception of ipad screen when one of the so
 
 Website was also opened on the following devices and no responsive issues were seen:
 
-* Ipad- put in model
+* Ipad 5th Generation
+* Acer Travelmate Laptop
 * Iphone - put in model
 * Samsung S21 FE 
 
