@@ -153,21 +153,15 @@ Initially, there the issues below with my CSS code:
 Once I removed these CSS elements, no errors were found:
 ![CSSClear](/assets/Readme%20Images/CSS-validator-clear.webp)
 
-
- ### Lighthouse Testing
-Initially I had issues with the performance element of this result on the home page only, it was at 86.  
-To bring this score up, I made a few changes:
-* I made the size of the logo in the navbar smaller. 
-* I made the size of the carousel images on the home page smaller. 
-* All other pages had scores above 90 straight away. 
-![LightHouse2](/assets/Readme%20Images/Lighthouse-ColourTheory.webp)
-![LightHouse3](/assets/Readme%20Images/Lighthouse-Palettes.webp)
-![LightHouse4](/assets/Readme%20Images/Lighthouse-Contact.webp)
-
 ## Bugs 
 * Creating the dropdown menu in navbar menu 
   * When I used code from Boostrap, it gave me a button instead of a dropdown menu item that looked the same as the rest of the menu.  [This article](https://www.w3schools.com/bootstrap4/bootstrap_dropdowns.asp#:~:text=Basic%20Dropdown&text=To%20open%20the%20dropdown%20menu,actually%20build%20the%20dropdown%20menu.) enabled me to get this element to look right, but the menu wouldn't drop down.
   * I tried changing to v5 of Bootstrap as I read that you need this to make the dropdown toggle but this made everything go out of aligment.  I eventually found [this article](https://stackoverflow.com/questions/22955916/bootstrap-collapse-not-collapsin) which made me realise that if I took the -bs- out of the data-bs-toggle and went back to v4 of Bootstrap the drop down menu works and the alignment works. 
+
+* Adding required action to the form inputs on the Contact page
+  * The form template I was using did not have this function.  When I added the required instruction, it did not work.  
+  * [This page](https://stackoverflow.com/questions/60058280/required-attribute-not-working-with-form-tag) made me realise the form was missing the submit specification.
+  * This still didn't work and I realise looking at the code that the <form></form> section was closed before the submit section.  I moved this underneath the submit section and added 'formaction' instead of 'href' after reading [this article](https://www.w3schools.com/tags/att_button_formaction.asp) and it worked. 
 
 ## Unfixed Bugs 
 * I could not get the social icons to sit all in one line on ipad size.  I will fix this in a future release. 
