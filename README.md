@@ -4,38 +4,63 @@ Colour Theory is a site created by interior design studio, DesignLed, which help
 
 ![Mockup](/assets/Readme%20Images/All-devices.webp)
 
-## Features
+# Design
 
-### Site wide
+### Colours
 
-* General design points
-
-  * The feature colour of #580b20 is used throughout the site to highlight key elements on a page.
-  * The feature colour of #dc9806 is used when items in the menu bar or social icons are hovered over.
+* The feature colour of #580b20 is used throughout the site to highlight key elements on a page and for icons. 
+* The feature colour of #dc9806 is used when items in the menu bar or social icons are hovered over.
    ![HoverColour](/assets/Readme%20Images/Header-palettes-clicked.webp)
+
+### Fonts 
+* Fonts used are Arial Narrow Bold and Grandiflora One
+
+### Images 
+* All images are from my design studio work, DesignLed. 
+* The logo was created by me for this project. 
+
+### General design points
   * The footer border is replaced with a custom-designed rainbow line to link in with the colour theme of the website.
   ![Footer](/assets/Readme%20Images/Footer.webp)
 
-* Navigation Menu
-  * Contains links to the Home, What is Colour Theory pages, Palettes dropdown menu pages and Contact page and will be responsive on all devices.
-  * This will allow users to easily navigate between the pages within the site on any size device.
+
+
+# Features 
+
+This website consists of 8 pages.  Six are accessible from the navigation menu.  One is a 404 error page and one is a submission confirmation page for the contact form. 
+
+### Navigation Menu
+  * On the left hand side is the site logo, this moves to the center on mobile devices.  
+  * On the right hand side there are four links or burger menu on smaller screens:
+    * Home
+    * What is Colour Theory
+    * Palettes dropdown menu pages
+    * Contact page 
   * The user can decide to have the Palettes dropdown menu open or closed by clicking the Palettes menu item to both open and close it. 
    ![Dropdown](/assets/Readme%20Images/Header-dropdown-menu.webp)
+___
 
-* Footer
-  * This contains icons as links to social media websites that open in new tabs.  The links will link to DesignLed's social media pages.  Icons will be accessible to the visually impaired who may be using a screen reader with the use of aria labels. It will also contain a copyright to DesignLed for the website, this line will also link to the DesignLed website in case users would like to see the studio's website.
+### Footer
+  * To the right are social media icons.  The social links go to DesignLed's social media pages.  Icons are accessible to the visually impaired who may be using a screen reader with the use of aria labels.  
+  * To the left is the copyright to DesignLed for the website, this also links to the DesignLed website in case users would like to see the studio's website.
   * This will allow the user to follow DesignLed if they would like to after visiting the Colour Theory page. 
-
-* Favicon
+___
+### Favicon
   * A site wide favicon has been implemented with the Colour Theory logo.
   * This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
-
-* 404 Page
+___
+### 404 Page
   * A 404 page has been implemented and will display if a user navigates to a broken link.
   * The 404 page will allow the user to easily navigate back to the home page of the website with a button to take them directly to it. 
   ![404](/assets/Readme%20Images/404.webp)
+___
+### Form Submission Page
+  * This shows once the submit button has been pressed on the contact page.  After ten seconds, it automatically redirects to the home page. 
 
-### Home Page
+
+# Project Screenshots
+
+### Home Page:
 
 ![HomePage](/assets/Readme%20Images/Home.webp)
 * Landing page header
@@ -51,26 +76,34 @@ Colour Theory is a site created by interior design studio, DesignLed, which help
 * Coming Soon Section
   * This section is to get the user excited about the colour personality quiz which we will soon be releasing.
 
-### What is Colour Theory Page
+___
+
+### What is Colour Theory Page:
 
 ![ColourTheory](/assets/Readme%20Images/Colour-Theory.webp)
 * This page is designed to give users background information about colour theory and what different colours mean.
 * The images and corresponding text are responsive and will allow the user to view content from any device.
 
-### Palettes drop down menu
+___
+
+### Palettes drop down menu:
 
 ![ColourTheory](/assets/Readme%20Images/Palettes.webp)
 - The format of these three pages is the same. It gives visitors some general information about this type of colour palette. Shows a room decorated with this colour palette with a sample palette pulled from this room and then gives a 'How To' section that gives visitors pointers on how to implement a palette like this in their own home. The three palettes explored are:
   - Neutral
   - Monochromatic
   - Maximalist
+___
 
-### Contact Page
+### Contact Page:
 ![Contact](/assets/Readme%20Images/Contact-page.webp)
 * This page gives a contact form that enables people to contact DesignLed directly.
+* The contact detail sections are required so that a user cannot submit the form with no information. 
 * It also gives contact details for DesignLed if people would prefer to use these.
+___
 
-### Existing Features
+
+# Existing Features
 
 * Responsive design
 * Drop down menu for palettes section
@@ -78,12 +111,13 @@ Colour Theory is a site created by interior design studio, DesignLed, which help
 * Contact form and success page
 * Link hover colour change
 
-### Features Left to Implement
+
+# Features Left to Implement
 
 * A quiz page will be added to enable people to find their colour style for their home.
-* As a future enhancement, the contact form will be updated with javascript to send an email to DesignLed with the contact information.
+* As a future enhancement, the contact form will be updated with javascript to send an email to DesignLed when submit is clicked. 
 
-## Technologies
+# Technologies
 
 * HTML
   - The structure of the Website was developed using HTML as the main language.
@@ -102,9 +136,9 @@ Colour Theory is a site created by interior design studio, DesignLed, which help
 * Sketch
   - wireframes were created using sketch.com
 
-## Testing
+# Testing
 
-### Responsiveness
+## Responsiveness
 
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Safari browsers.
 
@@ -133,9 +167,9 @@ Website was also opened on the following devices and no responsive issues were s
 * Iphone - put in model
 * Samsung S21 FE 
 
-### Validator Testing 
+## Validator Testing 
 
-- HTML
+### HTML
  [W3C validator](https://validator.w3.org)
  Initially the following issues were found:
  * There were multiple trailing slash on void elements found.
@@ -145,7 +179,7 @@ Website was also opened on the following devices and no responsive issues were s
  Once I had corrected these issues, there were no further errors found when passing it through the W3C validator.
 ![HTML](/assets/Readme%20Images/HTML-checker.webp)
 
- - CSS
+ ###å CSS
  [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
 Initially, there the issues below with my CSS code:
 ![CSSErrors](/assets/Readme%20Images/CSS-validator-issues.webp)
@@ -153,20 +187,32 @@ Initially, there the issues below with my CSS code:
 Once I removed these CSS elements, no errors were found:
 ![CSSClear](/assets/Readme%20Images/CSS-validator-clear.webp)
 
-## Bugs 
-* Creating the dropdown menu in navbar menu 
+
+# Issues found during site development 
+
+### Creating the dropdown menu in navbar menu 
   * When I used code from Boostrap, it gave me a button instead of a dropdown menu item that looked the same as the rest of the menu.  [This article](https://www.w3schools.com/bootstrap4/bootstrap_dropdowns.asp#:~:text=Basic%20Dropdown&text=To%20open%20the%20dropdown%20menu,actually%20build%20the%20dropdown%20menu.) enabled me to get this element to look right, but the menu wouldn't drop down.
   * I tried changing to v5 of Bootstrap as I read that you need this to make the dropdown toggle but this made everything go out of aligment.  I eventually found [this article](https://stackoverflow.com/questions/22955916/bootstrap-collapse-not-collapsin) which made me realise that if I took the -bs- out of the data-bs-toggle and went back to v4 of Bootstrap the drop down menu works and the alignment works. 
 
-* Adding required action to the form inputs on the Contact page
+### Adding required action to the form inputs on the Contact page
   * The form template I was using did not have this function.  When I added the required instruction, it did not work.  
   * [This page](https://stackoverflow.com/questions/60058280/required-attribute-not-working-with-form-tag) made me realise the form was missing the submit specification.
   * This still didn't work and I realise looking at the code that the <form></form> section was closed before the submit section.  I moved this underneath the submit section and added 'formaction' instead of 'href' after reading [this article](https://www.w3schools.com/tags/att_button_formaction.asp) and it worked. 
 
-## Unfixed Bugs 
+### Endless horizontal scroll in How To section on Palettes page
+  * [This article](https://medium.com/afosto/bootstrap-v4-explained-the-grid-and-how-to-use-it-82a4de58604e) told me the container fluid class doesn’t have a max width.
+  * So I used advice from [this article](https://mdbootstrap.com/docs/standard/extended/max-width/#:~:text=In%20order%20to%20make%20an,w%2D100%20class%20to%20it.&text=You%20can%20also%20use%20max,100%25%3B%20utilities%20as%20needed) to set a max width and the problem was solved. 
+
+# Unfixed Bugs 
 * I could not get the social icons to sit all in one line on ipad size.  I will fix this in a future release. 
   
-## Credits 
+# Credits 
+
+To complete this project, I used Code Institute student template [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+I used Boostrap code for some parts of my website, this is noted in the code. 
+
+## Code 
 
 * [Dropdown menu in navbar](https://www.w3schools.com/bootstrap4/bootstrap_dropdowns.asp#:~:text=Basic%20Dropdown&text=To%20open%20the%20dropdown%20menu,actually%20build%20the%20dropdown%20menu.)
     * I used code from this page to help me create the dropdown menu without a button where the dropdown is, which is what I was getting from the Navbar Bootstrap code. 
@@ -175,6 +221,9 @@ Once I removed these CSS elements, no errors were found:
 * The base code for the 404 page came from this site:
 https://frontendshape.com/post/bootstrap-5-404-page-examples
 
-### Content and Media
+## Images
+* All images belong to me, any additional design elements were created by me for this project. 
 
-All content and media are owned by Lisa Marconi through her company Design Led Ltd.  The logo was created by Lisa Marconi for this project. 
+## Content
+* All content is original and generated by me.
+
