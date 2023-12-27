@@ -139,6 +139,7 @@
                     id="name"
                     name="name"
                     class="form-control"
+                    required
                   />
                 </div>
               </div>
@@ -151,6 +152,8 @@
                     id="email"
                     name="email"
                     class="form-control"
+                    required
+                    aria-required="true"
                   />
                 </div>
               </div>
@@ -165,6 +168,7 @@
                     id="subject"
                     name="subject"
                     class="form-control"
+                    required
                   />
                 </div>
               </div>
@@ -183,14 +187,16 @@
                 </div>
               </div>
             </div>
-          </form>
-
+         
           <div class="form-group text-center text-md-left">
-            <a class="btn btn-primary" href="Contact-form-submit.html">Send</a>
+            <input type="submit"
+            formaction="Contact-form-submit.html"
+            />
           </div>
-          <div class="status"></div>
         </div>
       </div>
+
+    </form>
 
       <!-- Contact Details Section -->
       <div class="text-center">

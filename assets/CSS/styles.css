@@ -68,9 +68,7 @@ p {
 
 .nav-link {
   color: #000 !important;
-  /* Set the default color */
   transition: color 0.3s;
-  /* Add a smooth transition effect */
 }
 
 /* Hover state styling */
@@ -112,14 +110,13 @@ p {
 }
 
 .hero-images {
-  padding-left: 1em;
+text-align: center!important;
 }
 
 .how-to {
   background-color: #580b20;
-  margin: 1em;
-  padding-right: 95%;
-  padding: 1em;
+  margin: 1.5em;
+  padding: 2em;
   color: white;
   max-width: 98%;
 }
