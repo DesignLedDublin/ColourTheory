@@ -125,6 +125,7 @@ text-align: center!important;
 
 #contact-form {
   padding-top: 0 !important;
+  font-family: "Arial Narrow Bold", sans-serif;
 }
 
 .form-group {
@@ -133,6 +134,11 @@ text-align: center!important;
 
 .thank-you {
   text-align: center !important;
+}
+
+.submit-button {
+  background-color: #580b20;
+  color: white;
 }
 
 /* 404 page */
