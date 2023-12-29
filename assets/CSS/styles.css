@@ -54,11 +54,11 @@ p {
   color: #dc9806 !important;
 }
 
-.copyright {
+.DesignLed-copyright {
   color: #000 !important;
 }
 
-.copyright:hover {
+.DesignLed-copyright:hover {
   color: #dc9806 !important;
   text-decoration: none;
 }
@@ -154,7 +154,6 @@ text-align: center!important;
 .fourzerofour {
   color: #dc9806;
 }
-
 
 /* Media Queries */
 
