@@ -224,8 +224,32 @@ Once I removed these CSS elements, no errors were found:
   * I fixed this by simply giving this section a little more space on the page.  The div for these icons initially had col-md-2, by changing it to col-md-3, the icons stayed in the same line on all screens. 
   * The second issue I had with the footer was that on mobile devices, the DesignLed copyright element sat to the left and there was not enough spacing between the elements. 
   ![Mobile issue](/assets/Readme%20Images/Footer%20spacing%20-%20mobile.webp)
-  * By looking at the code using Inspect, I was able to identify svg section of this code that was determining the spacing.  I used media query to increase the width and height of this on mobile view which resolved the issue
-  
+  * By looking at the code using Inspect, I was able to identify svg section of this code that was determining the spacing.  I used media query to increase the width and height of this on mobile view which resolved the issue.
+&nbsp;  
+&nbsp;
+
+# Deployment
+The project was deployed on GitHub Pages. I worked in VS Code and committed and pushed directly to Github to save all changes there as I worked. 
+
+To deploy a project I had to:
+
+* Log in to GitHub and click on repository to deploy ([ColourTheory](https://github.com/DesignLedDublin/ColourTheory))
+* select `Settings` and find GitHub Pages section at the very bottom of the page
+* from source select `Deploy from a branch` and then `Main` branch.
+* click `save` and page was deployed after auto-refresh.
+>  My site is published at https://designleddublin.github.io/ColourTheory//
+
+To run locally:
+* Log in to GitHub and click on repository to download ([ColourTheory](https://github.com/DesignLedDublin/ColourTheory))
+* select `Code` and click Download the ZIP file.
+* after download you can extract the file and use it in your local environment 
+
+Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
+this repository ([ColourTheory](https://github.com/DesignLedDublin/ColourTheory))into your github account.
+
+[Back to Table of contents](#table-of-contents)
+
 # Credits 
 
 To complete this project, I used Code Institute student template [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
