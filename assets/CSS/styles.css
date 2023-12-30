@@ -188,5 +188,23 @@ text-align: center!important;
   }
 }
 
+@media (min-width: 2500px) {
+  h1 {
+    font-size: 4em;
+  } 
+
+  h3 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 2em;
+  }
+
+  li {
+    font-size: 2em;
+  }
+  
+}
 
   
