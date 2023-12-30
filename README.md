@@ -4,6 +4,56 @@ Colour Theory is a site created by interior design studio, DesignLed, which help
 
 ![Mockup](/assets/Readme%20Images/All-devices.webp)
 
+# Table of Contents
+
+* [Design](#design)
+  * [Colour](#colours)
+  * [Fonts](#fonts)
+  * [Images](#images)
+  * [General Design Points](#general-design-points)
+
+* [Features](#features)
+  * [Navigation Menu](#navigation-menu)
+  * [Footer](#footer)
+  * [Favicon](#favicon)
+  * [404](#404)
+  * [Form Submission Page](#form-submission-page)
+
+* [Screenshots](#screenshots)
+  * [Home Page](#home-page)
+  * [What is Colour Theory Page](#what-is-colour-theory-page)
+  * [Palettes Drop Down Menu](#palettes-drop-down-menu)
+  * [Contact page](#contact-page)
+
+* [Existing Features](#existing-features)
+
+* [Features Left to Implement](#features-left-to-implement)
+
+* [Technologies](#technologies)
+
+* [Testing](#features)
+  * [Responsiveness](responsiveness)
+  * [Validator Testing](#validator-testing)
+    * [HTML](#html)
+    * [CSS](#css)
+    * [Lighthouse](#lighthouse)
+
+* [Issues Found During Site Development](#issues-found-during-site-development)
+  * [Creating the dropdown menu in navbar menu](#creating-the-dropdown-menu-in-navbar-menu)
+  * [Adding required action to the form inputs on the Contact page](#adding-required-action-to-the-form-inputs-on-the-contact-page)
+  * [Endless horizontal scroll in How To section on Palettes page](#endless-horizontal-scroll-in-how-to-section-on-palettes-page)
+  * [Spacing for large screens on What is Colour Theory Page](#spacing-for-large-screens-on-what-is-colour-theory-page)
+  * [Issues with Footer on Different Screen Sizes](#issues-with-footer-on-different-screen-sizes)
+
+* [Deployment](#deployment)
+
+* [Credits](#credits)
+  * [Code](#code)
+  * [Images](#images)
+  * [Content](#content)
+&nbsp;  
+&nbsp;
+
 # Design
 
 ### Colours
@@ -22,7 +72,6 @@ Colour Theory is a site created by interior design studio, DesignLed, which help
 ### General design points
   * The footer border is replaced with a custom-designed rainbow line to link in with the colour theme of the website.
   ![Footer](/assets/Readme%20Images/Footer.webp)
-
 
 
 # Features 
@@ -57,6 +106,7 @@ ___
 ### Form Submission Page
   * This shows once the submit button has been pressed on the contact page.  After ten seconds, it automatically redirects to the home page.    
    &nbsp;
+
 # Project Screenshots
 
 ### Home Page:
@@ -192,6 +242,13 @@ Once I removed these CSS elements, no errors were found:
 ![CSSClear](/assets/Readme%20Images/CSS-validator-clear.webp)
 &nbsp;  
 
+### Lighthouse
+ * I tested all pages of my website with Lighthouse, they were all above 90% in all three categories with the exception of the Home Page performance indicator which was coming in at 86% as the carousel images are larger. 
+ ![Home Page Lighthouse](/assets/Readme%20Images/Lighthouse%20Report%20Home%20Page.webp)
+ In order to bring this indicator above 90%, I had to reduce the size of the carousel images but this made them blurry.  So it was decided to keep them at the higher resolution as 86% is still perfectly acceptable for a website to run well. 
+&nbsp;  
+&nbsp;
+
 # Issues found during site development 
 
 ### Creating the dropdown menu in navbar menu 
@@ -206,8 +263,6 @@ Once I removed these CSS elements, no errors were found:
 ### Endless horizontal scroll in How To section on Palettes page
   * [This article](https://medium.com/afosto/bootstrap-v4-explained-the-grid-and-how-to-use-it-82a4de58604e) told me the container fluid class doesn’t have a max width.
   * So I used advice from [this article](https://mdbootstrap.com/docs/standard/extended/max-width/#:~:text=In%20order%20to%20make%20an,w%2D100%20class%20to%20it.&text=You%20can%20also%20use%20max,100%25%3B%20utilities%20as%20needed) to set a max width and the problem was solved. 
-&nbsp;  
-&nbsp;
 
 ### Spacing for large screens on What is Colour Theory Page
   * When this page was viewing on a very large page (over 2800px wide) the content in the section below the title that gives information about different colours would spread out to either side and leave a big gap in the middle.  The bigger the screen, the bigger the gap would get. 
@@ -215,8 +270,6 @@ Once I removed these CSS elements, no errors were found:
   * I tried adding col-xl-4 into the class which removed the gap and put the two sections together but the issue was that they were all bunched to the left. 
   ![Initial Solution](/assets/Readme%20Images/Spacing%20issue%20-%20large%20screen%20-%20colour%20theory%20page%20-%20initial%20solution.webp)
   * I found information about offsetting columns on [this page](https://getbootstrap.com/docs/4.0/layout/grid/) in Bootstrap and so played around with this.  Adding in offset-xl-2 to code meant the content stayed together in the centre of the page on larger screens. 
-&nbsp;  
-&nbsp;
 
 ### Issues with footer on different screen sizes. 
   * I had two issues with the footer that I had to fix.  The first was that on ipad screens, the 4 social icons wouldn't sit in a line.
