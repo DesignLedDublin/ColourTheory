@@ -209,10 +209,22 @@ Once I removed these CSS elements, no errors were found:
 &nbsp;  
 &nbsp;
 
-# Unfixed Bugs 
-* I could not get the social icons to sit all in one line on ipad size.  I will fix this in a future release. 
+### Spacing for large screens on What is Colour Theory Page
+  * When this page was viewing on a very large page (over 2800px wide) the content in the section below the title that gives information about different colours would spread out to either side and leave a big gap in the middle.  The bigger the screen, the bigger the gap would get. 
+  ![Issue image](/assets/Readme%20Images/Spacing%20issue%20-%20large%20screen%20-%20colour%20theory%20page.webp)
+  * I tried adding col-xl-4 into the class which removed the gap and put the two sections together but the issue was that they were all bunched to the left. 
+  ![Initial Solution](/assets/Readme%20Images/Spacing%20issue%20-%20large%20screen%20-%20colour%20theory%20page%20-%20initial%20solution.webp)
+  * I found information about offsetting columns on [this page](https://getbootstrap.com/docs/4.0/layout/grid/) in Bootstrap and so played around with this.  Adding in offset-xl-2 to code meant the content stayed together in the centre of the page on larger screens. 
 &nbsp;  
 &nbsp;
+
+### Issues with footer on different screen sizes. 
+  * I had two issues with the footer that I had to fix.  The first was that on ipad screens, the 4 social icons wouldn't sit in a line.
+  ![Ipad issue](/assets/Readme%20Images/Footer%20spacing%20-%20ipad.webp)
+  * I fixed this by simply giving this section a little more space on the page.  The div for these icons initially had col-md-2, by changing it to col-md-3, the icons stayed in the same line on all screens. 
+  * The second issue I had with the footer was that on mobile devices, the DesignLed copyright element sat to the left and there was not enough spacing between the elements. 
+  ![Mobile issue](/assets/Readme%20Images/Footer%20spacing%20-%20mobile.webp)
+  * By looking at the code using Inspect, I was able to identify svg section of this code that was determining the spacing.  I used media query to increase the width and height of this on mobile view which resolved the issue
   
 # Credits 
 
