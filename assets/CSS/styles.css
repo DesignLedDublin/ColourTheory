@@ -54,11 +54,11 @@ p {
   color: #dc9806 !important;
 }
 
-.DesignLed-copyright {
+.designLed-copyright {
   color: #000 !important;
 }
 
-.DesignLed-copyright:hover {
+.designLed-copyright:hover {
   color: #dc9806 !important;
   text-decoration: none;
 }
@@ -167,12 +167,11 @@ text-align: center!important;
   .description {
     margin-top: 1em;
   } 
+  .bi {
+    width: 60px;
+    height: 50px;
+  }
 }
 
-/* @media (max-width: 1300px) {
-  .colours-section {
-    max-width: 50%;
- 
-  }
-}  */
+
   
