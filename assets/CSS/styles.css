@@ -123,8 +123,12 @@ p {
   height: auto;
 }
 
-.hero-images {
+/* .hero-images {
 text-align: center!important;
+} */
+
+.col-xl-6-left {
+  margin-right: 90;
 }
 
 .how-to {
