@@ -11,7 +11,7 @@ h3 {
 p {
   font-family: "Grandiflora One", cursive;
   font-weight: 1000;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .container-fluid {
@@ -25,24 +25,28 @@ p {
   font-family: "Arial Narrow Bold", sans-serif;
 }
 
-/* Home Page */
 
-.main-title {
-  padding-bottom: 1em;
-}
-.sub-header {
-  font-family: "Arial Narrow Bold", sans-serif !important;
-  font-size: 2em;
+/* Nav Bar  */
+.nav-item {
+  font-family: "Grandiflora One", cursive;
+  font-weight: 1000;
+  font-size: 1.25em;
 }
 
-/* Coming Soon Section */
-
-.coming-soon {
-  background-color: #580b20;
-  color: white;
-  padding-top: 5em;
-  text-align: center;
+.navbar-fixed-top {
+  background-color: white;
+  padding-bottom: 0;
 }
+
+.nav-link {
+  color: #000 !important;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #dc9806 !important;
+}
+
 
 /* Footer */
 
@@ -63,26 +67,27 @@ p {
   text-decoration: none;
 }
 
-/* Nav Bar  */
-.nav-item {
-  font-family: "Grandiflora One", cursive;
-  font-weight: 1000;
-  font-size: large;
+
+/* Home Page */
+
+.main-title {
+  padding-bottom: 1em;
+}
+.sub-header {
+  font-family: "Arial Narrow Bold", sans-serif !important;
+  font-size: 2em;
 }
 
-.navbar-fixed-top {
-  background-color: white;
-  padding-bottom: 0;
+
+/* Coming Soon Section */
+
+.coming-soon {
+  background-color: #580b20;
+  color: white;
+  padding-top: 5em;
+  text-align: center;
 }
 
-.nav-link {
-  color: #000 !important;
-  transition: color 0.3s;
-}
-
-.nav-link:hover {
-  color: #dc9806 !important;
-}
 
 /* Colour Theory Page */
 
@@ -101,11 +106,6 @@ p {
   padding-right: 1em;
 }
 
-/* .center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 /* Palette Section */
 
@@ -135,6 +135,7 @@ text-align: center!important;
   max-width: 98%;
 }
 
+
 /* Contact page */
 
 #contact-form {
@@ -155,11 +156,13 @@ text-align: center!important;
   color: white;
 }
 
+
 /* 404 page */
 
 .fourzerofour {
   color: #dc9806;
 }
+
 
 /* Media Queries */
 
