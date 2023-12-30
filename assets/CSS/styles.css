@@ -171,6 +171,14 @@ text-align: center!important;
     width: 60px;
     height: 50px;
   }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .sub-header {
+    font-size: 1em;
+  }
 }
 
 
