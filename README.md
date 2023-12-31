@@ -17,17 +17,17 @@ Colour Theory is a site created by interior design studio, DesignLed, which help
   * [Footer](#footer)
   * [Favicon](#favicon)
   * [404](#404)
-  * [Form Submission Page](#form-submission-page)
+  * [Responsive Design](#responsive-design)
+  * [Contact Form and Success Page](#contact-form-and-success-page)
+  * [Link Hover Colour Change](#link-hover-colour-change)
+
+* [Features Left to Implement](#features-left-to-implement)
 
 * [Screenshots](#screenshots)
   * [Home Page](#home-page)
   * [What is Colour Theory Page](#what-is-colour-theory-page)
   * [Palettes Drop Down Menu](#palettes-drop-down-menu)
   * [Contact page](#contact-page)
-
-* [Existing Features](#existing-features)
-
-* [Features Left to Implement](#features-left-to-implement)
 
 * [Technologies](#technologies)
 
@@ -73,6 +73,9 @@ Colour Theory is a site created by interior design studio, DesignLed, which help
   * The footer border is replaced with a custom-designed rainbow line to link in with the colour theme of the website.
   ![Footer](/assets/Readme%20Images/Footer.webp)
 
+[Back to Table of Contents](#table-of-contents)
+
+&nbsp;  
 
 # Features 
 
@@ -102,10 +105,29 @@ ___
   * A 404 page has been implemented and will display if a user navigates to a broken link.
   * The 404 page will allow the user to easily navigate back to the home page of the website with a button to take them directly to it. 
   ![404](/assets/Readme%20Images/404.webp)
+___ 
+### Responsive design
+  * The website has been tested on all devices and is responsive on everything.
 ___
-### Form Submission Page
-  * This shows once the submit button has been pressed on the contact page.  After ten seconds, it automatically redirects to the home page.    
-   &nbsp;
+### Contact form and success page
+  * The website has a contact form with the contact details as required inputs.  The user is then taken to a success page once the form is submitted.  This page automatically redirects back to the home page after 10 seconds. 
+___
+### Link hover colour change
+  * The navbar menu and all footer elements change to the branding yellow colour on hover to show they are clickable. 
+
+&nbsp;  
+[Back to Table of Contents](#table-of-contents)
+&nbsp;
+
+
+# Features Left to Implement
+
+* A quiz page will be added to enable people to find their colour style for their home.
+* As a future enhancement, the contact form will be updated with javascript to send an email to DesignLed when submit is clicked. 
+
+&nbsp;  
+[Back to Table of Contents](#table-of-contents)
+&nbsp;
 
 # Project Screenshots
 
@@ -148,25 +170,9 @@ ___
 * This page gives a contact form that enables people to contact DesignLed directly.
 * The contact detail sections are required so that a user cannot submit the form with no information. 
 * It also gives contact details for DesignLed if people would prefer to use these.
+
 &nbsp;  
-&nbsp;
-
-# Existing Features
-
-* Responsive design
-* Drop down menu for palettes section
-* Bootstrap footer border changed to rainbow line designed inhouse
-* Contact form and success page
-* Link hover colour change
-&nbsp;  
-&nbsp;
-
-
-# Features Left to Implement
-
-* A quiz page will be added to enable people to find their colour style for their home.
-* As a future enhancement, the contact form will be updated with javascript to send an email to DesignLed when submit is clicked. 
-&nbsp;  
+[Back to Table of Contents](#table-of-contents)
 &nbsp;
 
 # Technologies
@@ -187,7 +193,9 @@ ___
   - favicon files were created at https://favicon.io/favicon-converter/
 * Sketch
   - wireframes were created using sketch.com
+
 &nbsp;  
+[Back to Table of Contents](#table-of-contents)
 &nbsp;
 
 # Testing
@@ -246,7 +254,9 @@ Once I removed these CSS elements, no errors were found:
  * I tested all pages of my website with Lighthouse, they were all above 90% in all three categories with the exception of the Home Page performance indicator which was coming in at 86% as the carousel images are larger. 
  ![Home Page Lighthouse](/assets/Readme%20Images/Lighthouse%20Report%20Home%20Page.webp)
  In order to bring this indicator above 90%, I had to reduce the size of the carousel images but this made them blurry.  So it was decided to keep them at the higher resolution as 86% is still perfectly acceptable for a website to run well. 
+
 &nbsp;  
+[Back to Table of Contents](#table-of-contents)
 &nbsp;
 
 # Issues found during site development 
@@ -278,7 +288,9 @@ Once I removed these CSS elements, no errors were found:
   * The second issue I had with the footer was that on mobile devices, the DesignLed copyright element sat to the left and there was not enough spacing between the elements. 
   ![Mobile issue](/assets/Readme%20Images/Footer%20spacing%20-%20mobile.webp)
   * By looking at the code using Inspect, I was able to identify svg section of this code that was determining the spacing.  I used media query to increase the width and height of this on mobile view which resolved the issue.
+
 &nbsp;  
+[Back to Table of Contents](#table-of-contents)
 &nbsp;
 
 # Deployment
@@ -301,14 +313,18 @@ Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/gi
 or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
 this repository ([ColourTheory](https://github.com/DesignLedDublin/ColourTheory))into your github account.
 
-[Back to Table of contents](#table-of-contents)
+ 
+[Back to Table of Contents](#table-of-contents)
+&nbsp;
 
 # Credits 
 
 To complete this project, I used Code Institute student template [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 I used Boostrap code for some parts of my website, this is noted in the code. 
-&nbsp;  
+  
+[Back to Table of Contents](#table-of-contents)
+&nbsp; 
 
 ## Code 
 
@@ -327,3 +343,4 @@ https://frontendshape.com/post/bootstrap-5-404-page-examples
 ## Content
 * All content is original and generated by me.
 
+[Back to Table of Contents](#table-of-contents)
