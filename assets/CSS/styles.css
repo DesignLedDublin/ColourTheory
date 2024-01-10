@@ -25,6 +25,11 @@ p {
   font-family: "Arial Narrow Bold", sans-serif;
 }
 
+.btn:hover {
+  background-color: #dc9806;
+  border: none;
+}
+
 
 /* Nav Bar  */
 .nav-item {
