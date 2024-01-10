@@ -198,6 +198,11 @@ p {
   .sub-header {
     font-size: 1em;
   }
+
+  .navbar-toggler {
+    margin-top: 2em;
+  }
+
 }
 
 @media (min-width: 2500px) {
