@@ -1,4 +1,4 @@
-h1,
+ch1,
 h2 {
   font-family: "Arial Narrow Bold", sans-serif;
   font-weight: bold;
@@ -29,6 +29,11 @@ p {
 /* Nav Bar  */
 .nav-item {
   font-family: "Grandiflora One", cursive;
+  font-weight: 1000;
+  font-size: 1.25em;
+}
+
+.dropdown-item {
   font-weight: 1000;
   font-size: 1.25em;
 }
