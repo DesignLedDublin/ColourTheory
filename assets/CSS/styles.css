@@ -9,8 +9,9 @@ h3 {
 }
 
 p {
-  font-family: "Grandiflora One", cursive;
-  font-weight: 1000;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.25em;
 }
 
@@ -28,13 +29,14 @@ p {
 
 /* Nav Bar  */
 .nav-item {
-  font-family: "Grandiflora One", cursive;
-  font-weight: 1000;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.25em;
 }
 
 .dropdown-item {
-  font-weight: 1000;
+  font-weight: 400;
   font-size: 1.25em;
 }
 
