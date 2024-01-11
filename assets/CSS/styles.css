@@ -1,3 +1,7 @@
+h1 {
+  font-size: 3em;
+}
+
 h2 {
   font-family: "Arial Narrow Bold", sans-serif;
   font-weight: bold;
@@ -151,7 +155,6 @@ p {
 
 .how-to {
   background-color: #580b20;
-  /* margin: 1.5em; */
   margin-top: 1.5em;
   padding: 2em;
   color: white;
