@@ -34,11 +34,10 @@ p {
   border: none;
 }
 
-
 /* Nav Bar  */
 
 .nav-item {
- font-family: "Poiret One", sans-serif;
+  font-family: "Poiret One", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.25em;
@@ -67,7 +66,6 @@ p {
   margin-top: 2em;
 }
 
-
 /* Footer */
 
 .social-icons {
@@ -80,6 +78,7 @@ p {
 
 .designLed-copyright {
   color: #000 !important;
+  font-family: "Poiret One", sans-serif;
 }
 
 .designLed-copyright:hover {
@@ -94,7 +93,6 @@ p {
   grid-template-rows: auto 1fr auto;
 }
 
-
 /* Home Page */
 
 .main-title {
@@ -105,7 +103,6 @@ p {
   font-size: 2em;
 }
 
-
 /* Coming Soon Section */
 
 .coming-soon {
@@ -114,7 +111,6 @@ p {
   padding-top: 5em;
   text-align: center;
 }
-
 
 /* Colour Theory Page */
 
@@ -161,7 +157,6 @@ p {
   max-width: 100%;
 }
 
-
 /* Contact page */
 
 #contact-form {
@@ -182,21 +177,22 @@ p {
   color: white;
 }
 
-
 /* 404 page */
 
 .fourzerofour {
   color: #dc9806;
 }
 
-
 /* Media Queries */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
   .description {
     margin-top: 1em;
-  } 
+  }
+
+  .colours {
+    padding-bottom: 0px;
+  }
 
   .social-icons-row {
     width: 60px;
@@ -214,20 +210,18 @@ p {
   .menu {
     margin-left: 40%;
   }
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
   .menu {
-  margin-left: 45%;
-}
+    margin-left: 45%;
+  }
 }
 
 @media (min-width: 2500px) {
   h1 {
     font-size: 4em;
-  } 
+  }
 
   h3 {
     font-size: 3em;
@@ -241,5 +235,3 @@ p {
     font-size: 2em;
   }
 }
-
-  
